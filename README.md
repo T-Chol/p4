@@ -13,11 +13,12 @@ pip install -r requirements.txt
 unset FLASK_APP [-----optional-----]
 unset FLASK_RUN_PORT [-----optional-----] 
 ```
-    git checkout -b [branchName]
-    git checkout main
-    git pull origin main
-    git merge models
-
+```bash
+git checkout -b [branchName]
+git checkout main
+git pull origin main
+git merge models
+```
 
 
 
