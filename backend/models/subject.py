@@ -2,7 +2,7 @@ from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 from .validations import generate_reg_no
 
-from app import db
+from .database import db
 
 class Subject(db.model):
     __tablename__ = "subjects"

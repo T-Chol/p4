@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean
 # from sqlalchemy.orm import relationship
-from app import db
+from .database import db
 from .validations import generate_reg_no
 from sqlalchemy.ext.hybrid import hybrid_property
 from . import bcrypt

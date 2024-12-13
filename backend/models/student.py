@@ -1,7 +1,7 @@
 from sqlalchemy import Date ,Column, ForeignKey, Integer, String, Boolean, TIMESTAMP
 from sqlalchemy.orm import relationship
 from sqlalchemy_serializer import SerializerMixin
-from app import db
+from .database import db
 from sqlalchemy.ext.hybrid import hybrid_method, hybrid_property
 from . import bcrypt
 

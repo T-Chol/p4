@@ -6,11 +6,11 @@
 from flask import Flask
 from flask_migrate import Migrate
 from .database import db
-from dotenv import load_dotevn
+from dotenv import load_dotenv
 from flask_bcrypt import Bcrypt
 def create_app():
     global bcrypt
-    load_dotevn()
+    load_dotenv()
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_prefixed_env()
 
